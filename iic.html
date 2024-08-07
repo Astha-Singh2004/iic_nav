@@ -1,0 +1,32 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IIC</title>
+    <link rel="stylesheet" href="iic.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <img class="logo" src="logo.png">
+      <label for="" class="icons" onclick="toggleMenu()">
+        <i class="bx bx-menu"></i>
+      </label>
+
+      <nav class="navbar">
+        <a href="#"> Home </a>
+        <a href="https://www.bvuniversity.edu.in/coepune/iic/about-iic"> About </a>
+        <a href="#"> Events </a>
+      </nav>
+    </header>
+    <script>
+      function toggleMenu() {
+        const navbar = document.querySelector(".navbar");
+        navbar.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
